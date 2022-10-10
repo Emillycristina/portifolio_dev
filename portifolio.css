@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans+Mono:wght@300 & display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.navbar.bg-dark{
+   height: 70px;
+}
+ 
+.imagem_logo {
+ 
+ width: 60px;
+ height: 50px;
+ margin-left: 30px;
+ filter: invert(75%);
+
+}
+
+
+#home{
+   display: flex;
+   float: start;
+   margin-top: -40px;
+   margin-right: 50px;
+   margin-left: -40px;
+   
+}
+
+.header{
+    background-color: #212529;
+    width: 100%;
+    height: 700px;
+}
+
+#home-portifolio {
+   display: flex;
+   float: start;
+   margin-right: 100px;
+   margin-left: 80px;
+   margin-top: -40px;
+}
+
+#home-contato {
+    display: flex;
+    float: start;
+    margin-right: 90px;
+    margin-left: 200px;
+    margin-top: -40px;
+ }
+
+ .circulo{
+  margin-top: 100px;
+
+ }
+
+ h4{
+  color: rgb(201, 195, 195);
+  margin-left: 440px;
+  margin-top: -350px;
+  text-transform: uppercase;
+ }
+
+ h5{
+    color: rgb(201, 195, 195);
+    margin-left: 440px;
+    text-transform: uppercase;
+   
+   }
+
+
+ .Emilly_principal{
+   margin-left: -400px;
+   margin-top: 100px ;
+   width: 300px;
+   
+ }
+
+ .mao{
+    margin-left: -10px;
+    width: 25px;
+    height: 25px;
+ }
+
+ .h3{
+   margin-top: 20px;
+   
+
+ }
+
+ .letra-e{
+    margin-bottom: 9px;
+    width: 25px;
+    height: 25px;
+ }
+
+ #portifólio{
+     padding-top: 40px;
+     width: 100%;
+     height: 600px;
+     background: #212529;
+     
+
+
+
+ }
+
+ .Emilly_emoji{
+    margin-left: -50px;
+    
+ }
+
+ .Emilly_emoji2{
+    width: 100px;
+
+    
+ }
+
+ #contato{
+     padding-top: 30px;
+     width: 100%;
+     height: 600px;
+     background: rgb(0,212,255);
+     background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(255,0,183,1) 81%);
+ }
+
+ footer{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 0;
+    background-color: #212529;
+ }
+
+ .card-img-top{
+   width: 250px;
+   height: 250px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+
+ }
+
+ .card{
+    margin-left: 33rem;
+    margin-top: 2rem;
+
+ }
