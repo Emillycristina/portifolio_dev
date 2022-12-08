@@ -43,8 +43,8 @@ body{
 #home-portifolio {
    display: flex;
    float: start;
-   margin-right: 100px;
-   margin-left: 80px;
+   margin-right: 150px;
+   margin-left: 150px;
    margin-top: -40px;
 }
 
@@ -52,9 +52,18 @@ body{
     display: flex;
     float: start;
     margin-right: 90px;
-    margin-left: 200px;
+    margin-left: 290px;
     margin-top: -40px;
  }
+
+ #home-tecnologias{
+   display: flex;
+   float: start;
+   margin-top: -40px;
+   margin-left: 20px ;
+   margin-right: 20px;
+ }
+
 
  .circulo{
   margin-top: 100px;
@@ -72,8 +81,30 @@ body{
     color: rgb(201, 195, 195);
     margin-left: 440px;
     text-transform: uppercase;
+    animation: typewriter 2s steps(13) infinite alternate,
+    blink 800ms steps(13) infinite normal;
+    white-space: nowrap;
+    overflow: hidden;
    
    }
+
+   @keyframes typewriter {
+      from {
+        width: 0%;
+      }
+      to {
+        width: 50%;
+      }
+    }
+   
+    @keyframes blink {
+      from {
+        border-color: white;
+      }
+      to {
+        border-color: transparent;
+      }
+    }
 
 
  .Emilly_principal{
@@ -103,9 +134,12 @@ body{
 
  #portifólio{
      padding-top: 40px;
+     padding-left: 6px;
      width: 100%;
      height: 600px;
-     background: #212529;
+     background: rgb(33, 37, 41);
+    
+     
      
 
 
@@ -148,7 +182,59 @@ body{
  }
 
  .card{
-    margin-left: 33rem;
+    margin-left: 30rem;
     margin-top: 2rem;
 
+ }
+
+ 
+ #tecnologias{
+   width: 100%;
+   height: 200px;
+   background-color: #212529;
+   
+  
+ }
+
+
+ .btn-portifólio {
+   background-color: blueviolet;
+   border:none;
+   color:white;
+   border-radius: 2px;
+   margin-top: 70px;
+   margin-left: 2px;
+ }
+ 
+ .card-portifólio {
+   background-color: rgb(0, 0, 0, 0.4);
+   backdrop-filter: blur(30px);
+   width: 300px;
+   height: 200px;
+ }
+ 
+ #zoomkids {
+  width: 300px;
+  height: 150px;
+ }
+
+ #resili{
+   width: 300px;
+   height: 150px;
+ }
+
+ #apocalipto{
+   width: 300px;
+   height: 150px;
+
+ }
+
+ #got{
+   width: 300px;
+   height: 150px;
+ }
+
+ a {
+  text-decoration: none;
+  color:white;
  }
